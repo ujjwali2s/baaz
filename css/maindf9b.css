@@ -13,7 +13,7 @@ input[type="checkbox"]{-webkit-appearance:checkbox;}
 input[type="radio"]{-webkit-appearance:radio;}
 .lines-button{display:none;}
 .main{ margin:0 auto; padding: 0 15px; max-width:1530px;}
-body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: normal; color: #fff;}
+body{ background: #e0e0e0;font-family: 'Montserrat', sans-serif; font-weight: normal; color: #222;}
 
 .owl-carousel .owl-stage-outer {
 	overflow: visible;width: 100%;
@@ -25,9 +25,9 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 
 .lb_header{width: 100%; padding:  92px 15px; position: fixed; z-index: 9; transition: all 0.4s ease 0s;}
 .lb_header.fixed {
-	background: #6c1464f5;
+	background: #333333cc;
 	padding: 40px 15px;
-	border-bottom: 2px solid #e8a8f7;
+	border-bottom: 2px solid #999999;
 }
 .lb_header .lb_logo{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);}
 .lb_header .lb_logo img{display: block; max-height: 160px;}
@@ -71,7 +71,7 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 	max-width: 380px;
 }
 .lb_slider .mainslider .item .lb_sld_cont{ width: 805px; padding: 0 0 100px;}
-.lb_slider .mainslider .item .lb_sld_cont .lb{font-weight: bold; display: inline-block; font-size: 16px;     color: #2e125e; background: #edc630; padding: 9px 22px;margin: 0 0 46px;}
+.lb_slider .mainslider .item .lb_sld_cont .lb{font-weight: bold; display: inline-block; font-size: 16px;     color: #2e125e; background: #cccccc; padding: 9px 22px;margin: 0 0 46px;}
 .lb_slider .mainslider .item .lb_sld_cont h3{width: 100%; margin: 0; text-transform: uppercase; font-weight: bold; font-size: 25px; color: #fff;}
 .lb_slider .mainslider .item .lb_sld_cont h2{width: 100%; margin: -21px 0 15px;text-transform: uppercase; font-weight: bold; font-size: 110px;text-shadow: 0 0 18px #c3a825e3; line-height: normal; color: #fff;}
 .lb_slider .mainslider .item .lb_sld_cont p{width: 100%;max-width: 500px; margin: 0 0 48px;font-weight: normal; font-size: 26px; line-height:32px; color: #fff;}
@@ -81,15 +81,15 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 	font-weight: bold;
 	color: #fff;
 	padding: 18px 32px;
-	border: 3px solid #de85f3;
+	border: 3px solid #cccccc;
     border-radius: 10px;
-    box-shadow: 0 0 10px 5px #b613dd;
-	background: #cb1ac32b;
+    box-shadow: 0 0 10px 5px #666666;
+	background: #6666664d;
 	margin-top: 30px;
 	position: relative;
 	margin-left: 50px;
 }
-.lb_slider .mainslider .item .lb_sld_cont .a_id:hover{background: #edc630; color: #2e125e;}
+.lb_slider .mainslider .item .lb_sld_cont .a_id:hover{background: #cccccc; color: #2e125e;}
 .lb_slider .mainslider .item .lb_sld_img {
 	width: 1025px;
 	position: absolute;
@@ -296,12 +296,12 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 	color: #fff;
 }
 .lb_walb .lb_walb_con span {
-	color: #edc630;
+	color: #cccccc;
 }
 .lb_walb .lb_walb_con h2 {
 	font-weight: bold;
 	width: 100%;
-	margin: 0 0 20px;text-shadow: 0 0 18px #edc630;
+	margin: 0 0 20px;text-shadow: 0 0 18px #cccccc;
 	font-size: 40px; line-height: 40px;
 	color: #fff;
 }
@@ -318,13 +318,13 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 	font-weight: bold;
 	color: #fff;
 	padding: 18px 32px;
-	border: 2px solid #e8a8f7;
+	border: 2px solid #cccccc;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(255,255,255,0.5);
-	background: #6c1464f5;
-	box-shadow: 0 0 5px 2px #e392f7;
+	background: #666666;
+	box-shadow: 0 0 5px 2px #999999;
 }
-.lb_walb .lb_walb_con .lb_walb_btn .a_di:hover{ background: #edc630; color: #2e125e; }
+.lb_walb .lb_walb_con .lb_walb_btn .a_di:hover{ background: #cccccc; color: #2e125e; }
 .lb_walb .lb_walb_con .lb_walb_btn .a_wa {
 	display: inline-block;
 	font-size: 20px;
@@ -468,7 +468,7 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 .lb_hiw{ width: 100%; padding: 100px 0 40px; background: url('../images/3bg.jpg') no-repeat center center; background-size: cover; }
 .lb_hiw .main{max-width: 1510px;}
 .lb_hiw h2{width: 100%; text-align: center ; margin: 0 0 80px; font-weight: bold; font-size: 60px; line-height: normal; color: #fff;}
-.lb_hiw h2 span{ color: #edc630; }
+.lb_hiw h2 span{ color: #cccccc; }
 .lb_hiw .hiw_counter{ width: 100%; display: flex; margin: 0 0 107px;flex-wrap: wrap; }
 .lb_hiw .hiw_counter li {
 	margin: 0 40px;position: relative;
@@ -482,12 +482,11 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	border: 2px solid #e8a8f7;
+	border: 2px solid #cccccc;
 	margin: 0 auto;
 	border-radius: 50%; transition: all 0.4s ease 0s;
-	/*box-shadow: 0 0 0 #edc630;*/
-	background: #6c1464f5; margin: 0 auto 40px;
-	box-shadow: 0 0 5px 2px #e392f7;
+	background: #666666; margin: 0 auto 40px;
+	box-shadow: 0 0 5px 2px #999999;
 }
 .lb_hiw .hiw_counter li.active .hiw_step {
 	box-shadow: 0 0 14px #bb2cad;
@@ -545,7 +544,7 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 .lb_celeb .main{max-width: 100%; padding: 0;}
 .lb_celeb .celeb_wrap{display: flex; flex-wrap: wrap;align-items: center; justify-content: space-between; width: 100%;}
 .lb_celeb .celeb_wrap h2{width: 430px; margin: -40px 0 0; font-size: 100px; line-height: 98px; color: #fff;}
-.lb_celeb .celeb_wrap h2 span{width: 100%;color: #edc630; display: inline-block;}
+.lb_celeb .celeb_wrap h2 span{width: 100%;color: #cccccc; display: inline-block;}
 .lb_celeb .celeb_wrap .celebslider {
 	width: calc(100% - 520px);padding: 0 0 80px;
 	overflow: hidden; position: relative;
@@ -652,13 +651,13 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 
 .lb_why{width: 100%; background: url('../images/bg5.jpg') no-repeat center center; background-size: cover; padding: 140px 0 40px;}
 .lb_why h2{width: 100%; text-align: center; margin: 0 0 60px; font-size: 60px; line-height: normal; font-weight: bold; color: #fff;}
-.lb_why h2 span{color: #edc630;}
+.lb_why h2 span{color: #cccccc;}
 .lb_why .why_ul{display: flex; flex-wrap: wrap; width: 100%;}
 .lb_why .why_ul li {
 	margin: 0 100px 60px 0;
 	width: calc(33.33% - 67px);
-	border: 2px solid #e8a8f7;
-	background: #6c1464f5;
+	border: 2px solid #cccccc;
+	background: #666666;
 	box-shadow: 0 25px 20px 0px rgba(0,0,0,0.5);
 	border-radius: 5px;
 	padding: 40px 30px;
@@ -669,7 +668,7 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 .lb_why .why_ul li:nth-child(3n){ margin-right:0;}
 .lb_why .why_ul li .why_icon{ width: 94px; }
 .lb_why .why_ul li .why_cnt{ width:calc(100% - 124px); }
-.lb_why .why_ul li .why_cnt h4{ width:100%; margin: 0 0 20px; font-weight: bold; font-size: 20px; text-transform: uppercase; line-height: 24px; color: #edc630; }
+.lb_why .why_ul li .why_cnt h4{ width:100%; margin: 0 0 20px; font-weight: bold; font-size: 20px; text-transform: uppercase; line-height: 24px; color: #cccccc; }
 .lb_why .why_ul li .why_cnt p{ width:100%; margin: 0; font-weight:normal; font-size:18px; line-height: 26px; color: #FFFFFF; }
 
 .lb_footer {
@@ -773,7 +772,7 @@ body{ background: #000000;font-family: 'Montserrat', sans-serif; font-weight: no
 	width: 100%;
 	margin: 0 0 0;
 	color: #000000e8;
-    background: #edc630;
+    background: #cccccc;
     padding: 6px;
     border-radius: 5px;
     font-size: 18px;
