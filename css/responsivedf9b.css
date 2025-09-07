@@ -72,7 +72,7 @@
 	padding: 50px 15px;
 }
 .lb_header .lb_logo img {
-	max-height: 50px;
+	max-height: 100px;
 }
 .lb_header nav ul li {
 	margin: 0 10px;
@@ -308,10 +308,10 @@
 	background: #1f001b00;
 	padding: 3px 20px 3px;
 	text-align: center;
-	border-bottom: 1px solid #e8a8f7;
+	
 }
 .lb_header .lb_logo img {
-	max-height: 90px;
+	max-height: 140px;
 }
 .lb_header nav {
 	display: none;
