@@ -101,6 +101,7 @@
 }
 .lb_slider .mainslider .item .lb_sld_cont .a_id {
 	font-size: 14px;
+	margin-top: 50px;
 	padding: 12px 22px;
 }
 .lb_slider .cardsmall {
@@ -311,7 +312,7 @@
 	
 }
 .lb_header .lb_logo img {
-	max-height: 140px;
+	max-height: 200px;
 }
 .lb_header nav {
 	display: none;
